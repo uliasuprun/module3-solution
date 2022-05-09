@@ -1,0 +1,18 @@
+:root {
+    --main-light-text-color: #ffffff;
+    --main-accent-color: #61122f;
+    --secondary-accent-color: #f6b319;
+    --green-accent-color: #557c3e;
+
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: 16px;
+    color: var(--main-light-text-color);
+    background-color: var(--main-accent-color);
+    font-family: 'Oxygen', sans-serif;
+}
