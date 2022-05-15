@@ -122,7 +122,10 @@ a {
     box-shadow: 0 0 50px #3f0c1f;
     border: 2px solid #3f0c1f;
 }
-
+.visible-xs {
+    margin-right: auto;
+    margin-left: auto;
+}
 
 #menu-tile,
 #specials-tile,
@@ -142,12 +145,12 @@ a {
 }
 
 #menu-tile {
-    background: url('/images/menu-tile.jpeg') no-repeat;
+    background: url(/images/menu-tile.jpeg) no-repeat;
     background-position: center;
 }
 
 #specials-tile {
-    background: url('/images/specials-tile.jpeg') no-repeat;
+    background: url(/images/specials-tile.jpeg) no-repeat;
     background-position: center;
 }
 
